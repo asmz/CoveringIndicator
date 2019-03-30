@@ -1,0 +1,12 @@
+platform :ios, '11.0'
+use_frameworks!
+
+target 'CoveringIndicatorExample' do
+  pod 'CoveringIndicator', :path => '../'
+
+  target 'CoveringIndicatorExampleTests' do
+    inherit! :search_paths
+
+
+  end
+end
