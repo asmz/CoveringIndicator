@@ -1,8 +1,9 @@
 //
 //  CoveringIndicator.swift
-//  Pods-CoveringIndicator_Example
+//  CoveringIndicator
 //
 //  Created by asmz on 2019/03/30.
+//  Copyright © 2019 asmz. All rights reserved.
 //
 
 class CoveringIndicatorView: UIView {
@@ -20,10 +21,10 @@ class CoveringIndicatorView: UIView {
     }
 
     func customInit() {
-        backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.75)
         let indicator = UIActivityIndicatorView(style: .whiteLarge)
         indicator.startAnimating()
         addSubview(indicator)
+
         indicator.translatesAutoresizingMaskIntoConstraints = false
         indicator.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
         indicator.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true

@@ -12,8 +12,11 @@ import CoveringIndicator
 class ViewController: UIViewController, CoveringIndicatorShowable {
 
     @IBAction func didTapShowButton() {
+        // Show indicator
         showCoveringIndicator()
+
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + .seconds(3)) { [weak self] in
+            // Hide indicator
             self?.hideCoveringIndicator()
         }
     }
