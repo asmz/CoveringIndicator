@@ -23,6 +23,35 @@ it, simply add the following line to your Podfile:
 pod 'CoveringIndicator'
 ```
 
+## Usage
+
+Firstly, import `CoveringIndicator`.
+
+```swift
+import CoveringIndicator
+```
+
+Let your UIViewController conforming with the `CoveringIndicatorShowable` protocol.
+
+```swift
+class ViewController: UIViewController, CoveringIndicatorShowable {
+    ...
+}
+```
+
+Show indicator covering the screen.
+
+```swift
+showCoveringIndicator()
+```
+
+Hide indicator covering the screen.
+
+```swift
+hideCoveringIndicator()
+```
+
+
 ## Author
 
 Akira Shimizu / asmz
