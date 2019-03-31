@@ -45,6 +45,10 @@ Show indicator covering the screen.
 showCoveringIndicator()
 ```
 
+```swift
+showCoveringIndicator(alpha: 0.5) // Set background alpha color (default: 0.75)
+```
+
 Hide indicator covering the screen.
 
 ```swift

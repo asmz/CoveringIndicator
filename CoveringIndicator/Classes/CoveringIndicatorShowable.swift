@@ -12,11 +12,11 @@ public protocol CoveringIndicatorShowable {}
 
 public extension CoveringIndicatorShowable where Self: UIViewController {
 
-    func showCoveringIndicator() {
+    func showCoveringIndicator(alpha: CGFloat = 0.75) {
         guard let keyWindow = UIApplication.shared.keyWindow else { return }
 
         let indicatorView = CoveringIndicatorView()
-        indicatorView.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.75)
+        indicatorView.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: alpha)
         keyWindow.addSubview(indicatorView)
 
         indicatorView.translatesAutoresizingMaskIntoConstraints = false
