@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CoveringIndicator'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A Swift protocol extension for Covering screens and showing activity indicator.'
 
 # This description is used to generate tags and improve search results.
