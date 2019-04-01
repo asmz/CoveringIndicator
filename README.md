@@ -4,6 +4,12 @@
 [![License](https://img.shields.io/cocoapods/l/CoveringIndicator.svg?style=flat)](https://cocoapods.org/pods/CoveringIndicator)
 [![Platform](https://img.shields.io/cocoapods/p/CoveringIndicator.svg?style=flat)](https://cocoapods.org/pods/CoveringIndicator)
 
+## Overview
+
+`Coveringindicator` is a Swift protocol extension for Covering screens and showing activity indicator.
+
+![](./Images/Example.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
