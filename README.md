@@ -6,7 +6,7 @@
 
 ## Overview
 
-`CoveringIndicator` is a Swift protocol extension for Covering screens and showing activity indicator.
+`CoveringIndicator` is a Swift protocol extension for covering screens and showing activity indicator.
 
 ![](./Images/Example.gif)
 
